@@ -1,0 +1,50 @@
+{
+  "config_version": "1.0",
+  "generated_at": "2026-02-26T12:00:00Z",
+  "app_config": {
+    "force_update": {
+      "min_version": "1.2.0",
+      "store_url": "https://myconnect.ai/download",
+      "locales": {
+        "en": { "title": "New Version Available", "message": "A new version of MyConnect is ready! Please update to continue your roleplay." },
+        "ja": { "title": "新バージョンのお知らせ", "message": "MyConnectの新しいバージョンが利用可能です。ロールプレイを続けるために更新してください。" },
+        "ko": { "title": "새 버전 업데이트 안내", "message": "MyConnect의 새로운 버전이 준비되었습니다! 계속하시려면 업데이트해 주세요." },
+        "zh": { "title": "发现新版本", "message": "MyConnect 新版本已发布！请更新以继续您的角色扮演。" },
+        "zh-tw": { "title": "發現新版本", "message": "MyConnect 新版本已發佈！請更新以繼續您的角色扮演。" }
+      }
+    },
+    "maintenance": {
+      "is_active": true,
+      "type": "content_update",
+      "start_time": "2026-02-26T10:00:00Z",
+      "end_time": "2026-02-26T12:00:00Z",
+      "affected_platforms": [
+        "ios",
+        "android"
+      ],
+      "scenarios": {
+        "normal": {
+          "en": { "title": "System Refresh", "message": "We're doing some quick cleaning. Be back in a few minutes!" },
+          "ja": { "title": "システムリフレッシュ", "message": "クイックメンテナンス中です。数分後に戻ります！" },
+          "ko": { "title": "시스템 점검", "message": "잠시 시스템 청소 중입니다. 곧 돌아오겠습니다!" },
+          "zh": { "title": "系统维护", "message": "正在进行快速清理。几分钟后回来！" },
+          "zh-tw": { "title": "系統維護", "message": "正在進行快速清理。幾分鐘後回來！" }
+        },
+        "emergency_shutdown": {
+          "en": { "title": "Unexpected Shutdown", "message": "We're sorry, but the servers encountered an unexpected problem. We're working hard to fix it!" },
+          "ja": { "title": "緊急メンテナンス", "message": "申し訳ありませんが、サーバーに予期せぬ問題が発生しました。現在復旧作業中です！" },
+          "ko": { "title": "긴급 점검", "message": "죄송합니다. 서버에 예상치 못한 문제가 발생했습니다. 빠르게 해결 중입니다!" },
+          "zh": { "title": "紧急维护", "message": "非常抱歉，服务器遇到意外问题。我们要正在努力修复！" },
+          "zh-tw": { "title": "緊急維護", "message": "非常抱歉，伺服器遇到意外問題。我們正在努力修復！" }
+        },
+        "content_update": {
+          "en": { "title": "New World Loading", "message": "New characters and stories are being added to the MyConnect universe." },
+          "ja": { "title": "新しい世界を読み込み中", "message": "MyConnectの世界に新しいキャラクターと物語が追加されています。" },
+          "ko": { "title": "새로운 세계 로딩 중", "message": "MyConnect 세계에 새로운 캐릭터와 스토리가 추가되고 있습니다." },
+          "zh": { "title": "新世界加载中", "message": "MyConnect 宇宙正在加入新的角色和故事。" },
+          "zh-tw": { "title": "新世界加載中", "message": "MyConnect 宇宙正在加入新的角色和故事。" }
+        }
+      }
+    }
+  }
+}
