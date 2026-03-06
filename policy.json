@@ -1,0 +1,51 @@
+{
+  "config_version": "1.0",
+  "generated_at": "2026-03-06T10:00:00Z",
+  "accounts": [
+    {
+      "account_id": "default",
+      "policy_config": {
+        "is_active": true,
+        "policies": [
+          {
+            "id": "privacy_policy_update_2026_q2",
+            "policy_type": "privacy",
+            "version": "4.0",
+            "is_blocking": true,
+            "start_time": "2026-04-01T00:00:00Z",
+            "end_time": "2026-07-01T00:00:00Z",
+            "document_url": "https://myconnect.ai/legal/privacy-v4",
+            "locales": {
+              "en": {
+                "title": "Privacy Policy Update",
+                "summary": "We've updated our Privacy Policy to clarify how we use data for new features. Please review and accept the changes to continue.",
+                "accept_button": "Review and Accept"
+              },
+              "ja": {
+                "title": "プライバシーポリシーの更新",
+                "summary": "新機能のデータ使用方法を明確にするため、プライバシーポリシーを更新しました。続行するには、変更を確認して同意してください。",
+                "accept_button": "確認して同意する"
+              }
+                ,
+                "ko": {
+                  "title": "개인정보 처리방침 업데이트",
+                  "summary": "새로운 기능을 위한 데이터 사용 방식을 명확히 하기 위해 개인정보 처리방침을 업데이트했습니다. 변경 사항을 검토하고 동의해 주세요.",
+                  "accept_button": "검토 및 동의"
+                },
+                "zh-tw": {
+                  "title": "隱私政策更新",
+                  "summary": "我們已更新隱私政策，以釐清新功能的數據使用方式。請檢視並同意變更以繼續。",
+                  "accept_button": "檢視並同意"
+                },
+                "zh": {
+                  "title": "隐私政策更新",
+                  "summary": "我们已更新隐私政策，以明确新功能的数据使用方式。请查看并同意更改以继续。",
+                  "accept_button": "查看并同意"
+                }
+              }
+          }
+        ]
+      }
+    }
+  ]
+}

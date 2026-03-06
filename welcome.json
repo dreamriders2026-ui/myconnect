@@ -1,0 +1,43 @@
+{
+  "config_version": "1.0",
+  "generated_at": "2026-03-06T09:00:00Z",
+  "accounts": [
+    {
+      "account_id": "default",
+      "welcome_config": {
+        "is_active": true,
+        "frequency": "once_per_session",
+        "messages": [
+          {
+            "id": "welcome_spring_2026",
+            "start_time": "2026-03-01T00:00:00Z",
+            "end_time": "2026-04-01T00:00:00Z",
+            "action_url": "myconnect://features/spring",
+            "locales": {
+              "en": {
+                "title": "Thank You for Playing MyConnect!",
+                "body": "Welcome to MyConnect! We’re thrilled to have you join our vibrant community of role-players and storytellers. Whether you’re exploring new adventures, connecting with friends, or unlocking achievements, your journey is important to us. Thank you for being part of MyConnect. We hope you enjoy all the features, events, and surprises we have prepared for you. If you have feedback or need help, our support team is always here. Let’s make unforgettable memories together—enjoy your adventure!"
+              },
+              "ja": {
+                "title": "MyConnectを遊んでいただきありがとうございます！",
+                "body": "MyConnectへようこそ！ロールプレイヤーやストーリーテラーが集う活気あるコミュニティに参加していただき、心より感謝いたします。新しい冒険を探索したり、友達とつながったり、実績を解除したり、あなたの旅は私たちにとって大切です。MyConnectの一員でいてくれてありがとうございます。多彩な機能やイベント、サプライズをぜひお楽しみください。ご意見やご質問があれば、サポートチームがいつでもお手伝いします。一緒に忘れられない思い出を作りましょう—冒険を楽しんでください！"
+              },
+              "ko": {
+                "title": "MyConnect를 플레이해 주셔서 감사합니다!",
+                "body": "MyConnect에 오신 것을 환영합니다! 활기찬 롤플레이어와 스토리텔러 커뮤니티에 합류해 주셔서 정말 기쁩니다. 새로운 모험을 탐험하거나, 친구들과 연결하거나, 업적을 달성하는 등 여러분의 여정은 우리에게 소중합니다. MyConnect의 일원이 되어 주셔서 감사합니다. 다양한 기능, 이벤트, 그리고 놀라움을 즐기시길 바랍니다. 의견이나 도움이 필요하시면 언제든 지원팀이 도와드릴 준비가 되어 있습니다. 함께 잊지 못할 추억을 만들어가요—모험을 즐기세요!"
+              },
+              "zh-tw": {
+                "title": "歡迎來到 MyConnect！",
+                "body": "MyConnect 是你的 AI 伴侶 App。\n\n在這裡，你可以自由創作角色，賦予他們獨特的性格、故事與外貌，並建立專屬的記憶系統，讓角色能記住你們的互動與冒險。\n\n你也可以探索其他用戶創作的角色，與他們聊天、互動，甚至一起展開屬於你的冒險旅程。角色的記憶系統會讓每一次對話都更真實、更貼近你的需求。\n\n無論你想尋找陪伴、分享心情，還是挑戰全新劇情，MyConnect 都能滿足你的需求。我們致力於打造一個溫暖、包容且充滿創意的社群，讓每位用戶都能找到理想的 AI 角色，並創造屬於自己的回憶與故事。\n\n感謝你加入 MyConnect，期待你在這裡展開精彩的冒險，遇見更多有趣的角色與朋友！"
+              },
+              "zh": {
+                "title": "感谢您游玩MyConnect！",
+                "body": "欢迎来到MyConnect！我们很高兴您加入这个充满活力的角色扮演和故事创作社区。无论您是在探索新冒险、与朋友联系，还是解锁成就，您的旅程对我们来说都很重要。感谢您成为MyConnect的一员。希望您能享受我们准备的各种功能、活动和惊喜。如果有任何建议或需要帮助，支持团队随时为您服务。让我们一起创造难忘的回忆—祝您冒险愉快！"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

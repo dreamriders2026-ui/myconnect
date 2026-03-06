@@ -1,116 +1,200 @@
 {
-  "config_version": "2.0",
+  "config_version": "3.0",
   "generated_at": "2026-03-02T09:45:00Z",
-  "app_config": {
-    "force_update": {
-      "min_version": "1.2.0",
-      "store_url": "https://myconnect.ai/download",
-      "locales": {
-        "en": {
-          "title": "New Version Available",
-          "message": "A new version of MyConnect is ready. Please update to continue your roleplay."
+  "accounts": [
+    {
+      "account_id": "default",
+      "app_config": {
+        "force_update": {
+          "min_version": "1.2.0",
+          "store_url": "https://myconnect.ai/download",
+          "locales": {
+            "en": {
+              "title": "New Version Available",
+              "message": "A new version of MyConnect is ready. Please update to continue your roleplay."
+            },
+            "ja": {
+              "title": "新しいバージョンが利用可能です",
+              "message": "MyConnectの新しいバージョンが準備できました。ロールプレイを続けるには更新してください。"
+            },
+            "ko": {
+              "title": "새 버전 사용 가능",
+              "message": "MyConnect의 새 버전이 준비되었습니다. 롤플레이를 계속하려면 업데이트해 주세요."
+            },
+            "zh-tw": {
+              "title": "新版本可用",
+              "message": "MyConnect 的新版本已準備就緒。請更新以繼續您的角色扮演。"
+            },
+            "zh": {
+              "title": "新版本可用",
+              "message": "MyConnect 的新版本已准备就绪。请更新以继续您的角色扮演。"
+            }
+          }
+        },
+        "maintenance": {
+          "is_active": true,
+          "active_message_id": "maint_2026_03_02_content_update",
+          "default_locale": "en",
+          "affected_platforms": [
+            "ios",
+            "android"
+          ],
+          "messages": [
+            {
+              "id": "maint_2026_03_02_content_update",
+              "category": "content_update",
+              "priority": "high",
+              "status": "active",
+              "start_time": "2026-03-02T08:00:00Z",
+              "end_time": "2026-03-02T11:00:00Z",
+              "show_until": "2026-03-03T00:00:00Z",
+              "locales": {
+                "en": {
+                  "title": "March Feature Rollout",
+                  "summary": "We are adding new social and roleplay features. Some functions may be briefly unavailable.",
+                  "sections": {
+                    "updates": [
+                      "Added Group Scene mode for up to 6 participants.",
+                      "Added quick-reply templates for faster roleplay responses.",
+                      "Added profile card badges for community milestones."
+                    ],
+                    "maintenance_tasks": [
+                      "Migrating scenario metadata to a faster index.",
+                      "Rebuilding recommendation cache for new character discovery."
+                    ],
+                    "bug_fixes": [
+                      "Fixed delayed message delivery in crowded chat rooms.",
+                      "Fixed occasional image upload failure on iOS.",
+                      "Fixed login loop after password reset for some accounts."
+                    ]
+                  }
+                },
+                "ja": {
+                  "title": "3月の機能ロールアウト",
+                  "summary": "新しいソーシャル機能とロールプレイ機能を追加しています。一部の機能が一時的に利用できなくなる場合があります。",
+                  "sections": {
+                    "updates": [
+                      "最大6人までのグループシーンモードを追加しました。",
+                      "ロールプレイの応答を速くするためのクイック返信テンプレートを追加しました。",
+                      "コミュニティのマイルストーン用のプロフィールカードバッジを追加しました。"
+                    ],
+                    "maintenance_tasks": [
+                      "シナリオのメタデータをより高速なインデックスに移行しています。",
+                      "新しいキャラクター発見のために推奨キャッシュを再構築しています。"
+                    ],
+                    "bug_fixes": [
+                      "混雑したチャットルームでのメッセージ配信の遅延を修正しました。",
+                      "iOSでの画像のアップロードが時々失敗する問題を修正しました。",
+                      "一部のアカウントでパスワードリセット後にログインループが発生する問題を修正しました。"
+                    ]
+                  }
+                },
+                "ko": {
+                  "title": "3월 기능 출시",
+                  "summary": "새로운 소셜 및 롤플레이 기능을 추가하고 있습니다. 일부 기능은 잠시 사용할 수 없을 수 있습니다.",
+                  "sections": {
+                    "updates": [
+                      "최대 6명까지 참여할 수 있는 그룹 장면 모드가 추가되었습니다.",
+                      "더 빠른 롤플레이 응답을 위한 빠른 답장 템플릿이 추가되었습니다.",
+                      "커뮤니티 마일스톤을 위한 프로필 카드 배지가 추가되었습니다."
+                    ],
+                    "maintenance_tasks": [
+                      "시나리오 메타데이터를 더 빠른 인덱스로 마이그레이션하고 있습니다.",
+                      "새로운 캐릭터 발견을 위해 추천 캐시를 재구축하고 있습니다."
+                    ],
+                    "bug_fixes": [
+                      "붐비는 채팅방에서 메시지 전송이 지연되는 문제를 수정했습니다.",
+                      "iOS에서 가끔 이미지 업로드가 실패하는 문제를 수정했습니다.",
+                      "일부 계정에서 비밀번호 재설정 후 로그인 루프가 발생하는 문제를 수정했습니다."
+                    ]
+                  }
+                },
+                "zh-tw": {
+                  "title": "3 月功能推出",
+                  "summary": "我們正在新增社交和角色扮演功能。部分功能可能會暫時無法使用。",
+                  "sections": {
+                    "updates": [
+                      "新增最多 6 人的群組場景模式。",
+                      "新增快速回覆範本，以加快角色扮演回應速度。",
+                      "新增社群里程碑的個人檔案卡徽章。"
+                    ],
+                    "maintenance_tasks": [
+                      "正在將場景元數據遷移到更快的索引。",
+                      "正在重建推薦快取以利發現新角色。"
+                    ],
+                    "bug_fixes": [
+                      "修正了擁擠聊天室中訊息傳遞延遲的問題。",
+                      "修正了 iOS 上偶爾發生的圖片上傳失敗問題。",
+                      "修正了部分帳戶重設密碼後的登入迴圈問題。"
+                    ]
+                  }
+                },
+                "zh": {
+                  "title": "3 月功能推出",
+                  "summary": "我们正在添加新的社交和角色扮演功能。部分功能可能会暂时无法使用。",
+                  "sections": {
+                    "updates": [
+                      "新增最多 6 人的群组场景模式。",
+                      "新增快速回复模板，以加快角色扮演响应速度。",
+                      "新增社区里程碑的个人资料卡徽章。"
+                    ],
+                    "maintenance_tasks": [
+                      "正在将场景元数据迁移到更快的索引。",
+                      "正在重建推荐缓存以利发现新角色。"
+                    ],
+                    "bug_fixes": [
+                      "修正了拥挤聊天室中消息传递延迟的问题。",
+                      "修正了 iOS 上偶尔发生的图片上传失败问题。",
+                      "修正了部分帐户重置密码后的登录循环问题。"
+                    ]
+                  }
+                }
+              }
+            }
+          ]
         }
       }
     },
-    "maintenance": {
-      "is_active": true,
-      "active_message_id": "maint_2026_03_02_content_update",
-      "default_locale": "en",
-      "affected_platforms": [
-        "ios",
-        "android"
-      ],
-      "messages": [
-        {
-          "id": "maint_2026_03_02_content_update",
-          "category": "content_update",
-          "priority": "high",
-          "status": "active",
-          "start_time": "2026-03-02T08:00:00Z",
-          "end_time": "2026-03-02T11:00:00Z",
-          "show_until": "2026-03-03T00:00:00Z",
+    {
+      "account_id": "premium_users",
+      "app_config": {
+        "force_update": {
+          "min_version": "1.2.0",
+          "store_url": "https://myconnect.ai/download",
           "locales": {
             "en": {
-              "title": "March Feature Rollout",
-              "summary": "We are adding new social and roleplay features. Some functions may be briefly unavailable.",
-              "sections": {
-                "updates": [
-                  "Added Group Scene mode for up to 6 participants.",
-                  "Added quick-reply templates for faster roleplay responses.",
-                  "Added profile card badges for community milestones."
-                ],
-                "maintenance_tasks": [
-                  "Migrating scenario metadata to a faster index.",
-                  "Rebuilding recommendation cache for new character discovery."
-                ],
-                "bug_fixes": [
-                  "Fixed delayed message delivery in crowded chat rooms.",
-                  "Fixed occasional image upload failure on iOS.",
-                  "Fixed login loop after password reset for some accounts."
-                ]
-              }
+              "title": "New Version Available",
+              "message": "A new version of MyConnect is ready. Please update to continue your roleplay."
+            },
+            "ja": {
+              "title": "新しいバージョンが利用可能です",
+              "message": "MyConnectの新しいバージョンが準備できました。ロールプレイを続けるには更新してください。"
+            },
+            "ko": {
+              "title": "새 버전 사용 가능",
+              "message": "MyConnect의 새 버전이 준비되었습니다. 롤플레이를 계속하려면 업데이트해 주세요."
+            },
+            "zh-tw": {
+              "title": "新版本可用",
+              "message": "MyConnect 的新版本已準備就緒。請更新以繼續您的角色扮演。"
+            },
+            "zh": {
+              "title": "新版本可用",
+              "message": "MyConnect 的新版本已准备就绪。请更新以继续您的角色扮演。"
             }
           }
         },
-        {
-          "id": "maint_2026_03_01_server_maintenance",
-          "category": "scheduled_maintenance",
-          "priority": "medium",
-          "status": "active",
-          "start_time": "2026-03-01T23:00:00Z",
-          "end_time": "2026-03-02T01:30:00Z",
-          "show_until": "2026-03-02T12:00:00Z",
-          "locales": {
-            "en": {
-              "title": "Server Maintenance Window",
-              "summary": "Routine infrastructure maintenance is in progress to improve stability.",
-              "sections": {
-                "updates": [
-                  "No action required from users.",
-                  "Most sessions reconnect automatically after maintenance."
-                ],
-                "maintenance_tasks": [
-                  "Applying database performance tuning.",
-                  "Deploying API gateway health-check improvements."
-                ],
-                "bug_fixes": [
-                  "Reduced timeout errors during peak hours.",
-                  "Improved reconnection handling after temporary disconnects."
-                ]
-              }
-            }
-          }
-        },
-        {
-          "id": "maint_2026_02_28_emergency_shutdown",
-          "category": "emergency_shutdown",
-          "priority": "critical",
-          "status": "resolved",
-          "start_time": "2026-02-28T14:10:00Z",
-          "end_time": "2026-02-28T15:05:00Z",
-          "show_until": "2026-03-03T00:00:00Z",
-          "locales": {
-            "en": {
-              "title": "Service Interruption Resolved",
-              "summary": "We are sorry for the unexpected server shutdown earlier today. Service has been restored.",
-              "sections": {
-                "updates": [
-                  "All core chat and roleplay features are now back online.",
-                  "We are monitoring stability closely."
-                ],
-                "maintenance_tasks": [
-                  "Replaced a failing node in the message routing cluster.",
-                  "Added extra failover checks to prevent repeated shutdowns."
-                ],
-                "bug_fixes": [
-                  "Fixed session drops triggered by restart race conditions.",
-                  "Fixed stale presence indicators after reconnect."
-                ]
-              }
-            }
-          }
+        "maintenance": {
+          "is_active": false,
+          "active_message_id": null,
+          "default_locale": "en",
+          "affected_platforms": [
+            "ios",
+            "android"
+          ],
+          "messages": []
         }
-      ]
+      }
     }
-  }
+  ]
 }
