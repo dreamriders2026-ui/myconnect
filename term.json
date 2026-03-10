@@ -1,0 +1,52 @@
+{
+  "config_version": "1.0",
+  "generated_at": "2026-03-10T00:00:00Z",
+  "terms": {
+    "title": "應用條款",
+    "headerTitle": "MyConnect AI 聊天規則",
+    "lastUpdated": "最後更新：2025年11月",
+    "sections": {
+      "general": {
+        "title": "1. 通用條款（所有使用者）",
+        "welcome": "歡迎使用 MyConnect。使用我們的服務即表示您同意這些條款。這些規則適用於所有人，無論您是與角色聊天還是創建角色。",
+        "ageRequirementTitle": "年齡要求：",
+        "ageRequirementBody": "您必須年滿 13 歲才能使用此服務。如果您未滿 18 歲，必須獲得父母/監護人的許可。"
+      },
+      "players": {
+        "title": "2. 玩家條款",
+        "usageGuidelinesTitle": "使用指南：",
+        "usageGuidelinesBody": "• 請尊重 AI 角色。\n• 請勿將服務用於非法活動。\n• 請勿試圖繞過安全過濾器。",
+        "contentHistoryTitle": "您的內容與歷史記錄：",
+        "contentHistoryBody": "• 您的聊天記錄對您是私密的。",
+        "rightToRetainTitle": "保留權：",
+        "rightToRetainBody": "如果創作者刪除了您與之聊天的角色，您與該角色的聊天記錄將保留在您的帳戶中，因此您不會丟失您的記憶/故事。"
+      },
+      "creators": {
+        "title": "3. 創作者條款",
+        "characterCreationTitle": "角色創建：",
+        "characterCreationBody": "• 您對自己創建的角色負責。\n• 角色不得違反我們的安全或內容政策（無仇恨言論、非法內容等）。",
+        "deletionPolicyTitle": "刪除政策：",
+        "deletionPolicyBody": "• 您有權隨時從公共目錄中刪除您的角色。",
+        "importantTitle": "重要提示：",
+        "importantBody": "刪除角色不會刪除已經與之互動的玩家的聊天記錄。他們與您的角色的個人歷史記錄將保留在其私人檔案中。",
+        "ipTitle": "智慧財產權：",
+        "ipBody": "• 您保留原創角色概念的所有權。發布即表示您授予 MyConnect 展示和促進與您的角色聊天的許可。"
+      },
+      "privacy": {
+        "title": "4. 隱私與數據",
+        "body": "您的對話可能會被處理以改進我們的 AI 模型。請勿在聊天中分享敏感的個人資訊（如信用卡號或密碼）。"
+      },
+      "disclaimers": {
+        "title": "5. 免責聲明與安全警告",
+        "notProfessionalTitle": "非專業建議：",
+        "notProfessionalBody": "AI 角色僅供娛樂。他們不是醫生、律師或治療師。如果您處於危機中或需要專業幫助，請立即諮詢合格的人類專業人士。",
+        "aiBehaviorTitle": "AI 行為：",
+        "aiBehaviorBody": "AI 角色根據模式和您的輸入生成回應。他們可能會編造事實（“幻覺”）或只是為了保持對話而同意您的觀點。請勿依賴他們獲取事實資訊或做關鍵的人生決定。"
+      },
+      "termination": {
+        "title": "6. 終止",
+        "body": "我們保留暫停或終止違反這些條款、從事騷擾或濫用系統的帳戶的權利。"
+      }
+    }
+  }
+}
