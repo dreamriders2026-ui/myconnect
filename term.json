@@ -1,6 +1,6 @@
 {
   "config_version": "1.0",
-  "generated_at": "2026-03-10T00:00:00Z",
+  "generated_at": "2024-05-15T10:00:00Z",
   "terms": {
     "default_locale": "zh-tw",
     "locales": {
@@ -97,6 +97,150 @@
           "termination": {
             "title": "6. Termination",
             "body": "We reserve the right to suspend or terminate accounts that violate these terms or engage in harassment or abuse of the system."
+          }
+        }
+      }
+      "ja": {
+        "title": "利用規約",
+        "headerTitle": "MyConnect AIチャットルール",
+        "lastUpdated": "最終更新日：2025年11月",
+        "sections": {
+          "general": {
+            "title": "1. 一般規約（全ユーザー対象）",
+            "welcome": "MyConnectへようこそ。本サービスをご利用いただくことで、これらの規約に同意したものとみなされます。これらのルールは、キャラクターとチャットする方、キャラクターを作成する方、すべての方に適用されます。",
+            "ageRequirementTitle": "年齢制限：",
+            "ageRequirementBody": "本サービスを利用するには13歳以上である必要があります。18歳未満の場合は、保護者の許可が必要です。"
+          },
+          "players": {
+            "title": "2. プレイヤー規約",
+            "usageGuidelinesTitle": "利用ガイドライン：",
+            "usageGuidelinesBody": "• AIキャラクターを尊重してください。\n• 違法行為に本サービスを使用しないでください。\n• 安全フィルターを回避しようとしないでください。",
+            "contentHistoryTitle": "あなたのコンテンツと履歴：",
+            "contentHistoryBody": "• あなたのチャット履歴はあなたにとってプライベートです。",
+            "rightToRetainTitle": "保持する権利：",
+            "rightToRetainBody": "あなたがチャットしたキャラクターが作成者によって削除された場合でも、そのキャラクターとのチャット履歴はあなたのアカウントに残ります。これにより、あなたの記憶やストーリーが失われることはありません。"
+          },
+          "creators": {
+            "title": "3. クリエイター規約",
+            "characterCreationTitle": "キャラクター作成：",
+            "characterCreationBody": "• あなたは作成したキャラクターに責任を負います。\n• キャラクターは、当社の安全またはコンテンツポリシー（ヘイトスピーチ、違法コンテンツなど）に違反してはなりません。",
+            "deletionPolicyTitle": "削除ポリシー：",
+            "deletionPolicyBody": "• あなたはいつでも公開ディレクトリから自分のキャラクターを削除できます。",
+            "importantTitle": "重要：",
+            "importantBody": "キャラクターを削除しても、プレイヤーがすでにそのキャラクターと作成したチャット履歴は削除されません。彼らのキャラクターとの個人的な履歴は、彼らのプライベートプロフィールに残ります。",
+            "ipTitle": "知的財産：",
+            "ipBody": "• あなたはオリジナルのキャラクターコンセプトの所有権を保持します。公開することにより、MyConnectはあなたのキャラクターとのチャットを表示および促進する許可を与えられます。"
+          },
+          "privacy": {
+            "title": "4. プライバシーとデータ",
+            "body": "あなたの会話は、AIモデルを改善するために処理される場合があります。チャットで機密性の高い個人情報（クレジットカード番号やパスワードなど）を共有しないでください。"
+          },
+          "disclaimers": {
+            "title": "5. 免責事項と安全上の注意",
+            "notProfessionalTitle": "専門的なアドバイスではありません：",
+            "notProfessionalBody": "AIキャラクターは娯楽目的のみです。彼らは医師、弁護士、またはセラピストではありません。危機に瀕している場合や専門家の助けが必要な場合は、直ちに資格のある人間の専門家に相談してください。",
+            "aiBehaviorTitle": "AIの行動：",
+            "aiBehaviorBody": "AIキャラクターは、パターンとあなたの入力に基づいて応答を生成します。彼らは事実を捏造したり（「幻覚」）、会話を続けるためだけにあなたに同意したりする場合があります。事実情報や重要な人生の決定のために彼らに頼らないでください。"
+          },
+          "termination": {
+            "title": "6. 終了",
+            "body": "当社は、これらの規約に違反したり、嫌がらせやシステムの悪用を行ったりするアカウントを停止または終了する権利を留保します。"
+          }
+        }
+      },
+      "ko": {
+        "title": "이용 약관",
+        "headerTitle": "MyConnect AI 채팅 규칙",
+        "lastUpdated": "최종 업데이트: 2025년 11월",
+        "sections": {
+          "general": {
+            "title": "1. 일반 약관 (모든 사용자)",
+            "welcome": "MyConnect에 오신 것을 환영합니다. 저희 서비스를 이용하시면 본 약관에 동의하는 것으로 간주됩니다. 이 규칙은 캐릭터와 채팅하거나 캐릭터를 생성하는 모든 사용자에게 적용됩니다.",
+            "ageRequirementTitle": "연령 요건:",
+            "ageRequirementBody": "본 서비스를 이용하려면 최소 13세 이상이어야 합니다. 18세 미만인 경우 부모 또는 보호자의 허락을 받아야 합니다."
+          },
+          "players": {
+            "title": "2. 플레이어 약관",
+            "usageGuidelinesTitle": "사용 지침:",
+            "usageGuidelinesBody": "• AI 캐릭터를 존중해 주세요.\n• 불법 활동에 서비스를 사용하지 마세요.\n• 안전 필터를 우회하려고 시도하지 마세요.",
+            "contentHistoryTitle": "귀하의 콘텐츠 및 기록:",
+            "contentHistoryBody": "• 귀하의 채팅 기록은 귀하에게 비공개입니다.",
+            "rightToRetainTitle": "보존 권리:",
+            "rightToRetainBody": "생성자가 귀하가 채팅했던 캐릭터를 삭제하더라도, 해당 캐릭터와의 채팅 기록은 귀하의 계정에 남아 기억/스토리를 잃지 않도록 합니다."
+          },
+          "creators": {
+            "title": "3. 생성자 약관",
+            "characterCreationTitle": "캐릭터 생성:",
+            "characterCreationBody": "• 귀하는 생성하는 캐릭터에 대한 책임이 있습니다.\n• 캐릭터는 당사의 안전 또는 콘텐츠 정책(혐오 발언, 불법 콘텐츠 등)을 위반해서는 안 됩니다.",
+            "deletionPolicyTitle": "삭제 정책:",
+            "deletionPolicyBody": "• 귀하는 언제든지 공개 디렉토리에서 귀하의 캐릭터를 제거할 수 있습니다.",
+            "importantTitle": "중요:",
+            "importantBody": "캐릭터를 삭제해도 플레이어가 이미 해당 캐릭터와 생성한 채팅 기록은 삭제되지 않습니다. 해당 캐릭터와의 개인 기록은 플레이어의 비공개 프로필에 남아 있습니다.",
+            "ipTitle": "지적 재산권:",
+            "ipBody": "• 귀하는 원본 캐릭터 개념에 대한 소유권을 보유합니다. 게시함으로써 귀하는 MyConnect에 귀하의 캐릭터와의 채팅을 표시하고 홍보할 수 있는 권한을 부여합니다."
+          },
+          "privacy": {
+            "title": "4. 개인 정보 보호 및 데이터",
+            "body": "귀하의 대화는 AI 모델 개선을 위해 처리될 수 있습니다. 채팅에서 민감한 개인 정보(예: 신용 카드 번호 또는 비밀번호)를 공유하지 마세요."
+          },
+          "disclaimers": {
+            "title": "5. 면책 조항 및 안전 고지",
+            "notProfessionalTitle": "전문적인 조언이 아닙니다:",
+            "notProfessionalBody": "AI 캐릭터는 오락 목적으로만 사용됩니다. 이들은 의사, 변호사 또는 치료사가 아닙니다. 위기 상황에 있거나 전문적인 도움이 필요한 경우 즉시 자격을 갖춘 인간 전문가에게 문의하십시오.",
+            "aiBehaviorTitle": "AI 행동:",
+            "aiBehaviorBody": "AI 캐릭터는 패턴과 귀하의 입력에 따라 응답을 생성합니다. 이들은 사실을 조작하거나(‘환각’) 단순히 대화를 계속하기 위해 귀하에게 동의할 수 있습니다. 사실 정보나 중요한 삶의 결정을 위해 이들에게 의존하지 마세요."
+          },
+          "termination": {
+            "title": "6. 종료",
+            "body": "당사는 본 약관을 위반하거나 시스템을 괴롭히거나 남용하는 계정을 정지 또는 해지할 권리를 보유합니다."
+          }
+        }
+      },
+      "zh": {
+        "title": "使用条款",
+        "headerTitle": "MyConnect AI 聊天规则",
+        "lastUpdated": "最后更新：2025年11月",
+        "sections": {
+          "general": {
+            "title": "1. 通用条款（所有用户）",
+            "welcome": "欢迎使用 MyConnect。使用我们的服务即表示您同意这些条款。这些规则适用于所有人，无论您是与角色聊天还是创建角色。",
+            "ageRequirementTitle": "年龄要求：",
+            "ageRequirementBody": "您必须年满 13 岁才能使用此服务。如果您未满 18 岁，必须获得父母或监护人的许可。"
+          },
+          "players": {
+            "title": "2. 玩家条款",
+            "usageGuidelinesTitle": "使用指南：",
+            "usageGuidelinesBody": "• 请尊重 AI 角色。\n• 请勿将服务用于非法活动。\n• 请勿试图绕过安全过滤器。",
+            "contentHistoryTitle": "您的内容与历史记录：",
+            "contentHistoryBody": "• 您的聊天记录对您是私密的。",
+            "rightToRetainTitle": "保留权：",
+            "rightToRetainBody": "如果创作者删除了您与之聊天的角色，您与该角色的聊天记录将保留在您的账户中，因此您不会丢失您的记忆/故事。"
+          },
+          "creators": {
+            "title": "3. 创作者条款",
+            "characterCreationTitle": "角色创建：",
+            "characterCreationBody": "• 您对创建的角色负责。\n• 角色不得违反我们的安全或内容政策（无仇恨言论、非法内容等）。",
+            "deletionPolicyTitle": "删除政策：",
+            "deletionPolicyBody": "• 您有权随时从公共目录中删除您的角色。",
+            "importantTitle": "重要提示：",
+            "importantBody": "删除角色不会删除已经与该角色互动的玩家的聊天记录。他们与您的角色的个人历史记录将保留在其私人档案中。",
+            "ipTitle": "知识产权：",
+            "ipBody": "• 您保留原创角色概念的所有权。发布即表示您授予 MyConnect 展示和促进与您的角色聊天的许可。"
+          },
+          "privacy": {
+            "title": "4. 隐私与数据",
+            "body": "您的对话可能会被处理以改进我们的 AI 模型。请勿在聊天中分享敏感的个人信息（如信用卡号或密码）。"
+          },
+          "disclaimers": {
+            "title": "5. 免责声明与安全警告",
+            "notProfessionalTitle": "非专业建议：",
+            "notProfessionalBody": "AI 角色仅供娱乐。他们不是医生、律师或治疗师。如果您处于危机中或需要专业帮助，请立即咨询合格的人类专业人士。",
+            "aiBehaviorTitle": "AI 行为：",
+            "aiBehaviorBody": "AI 角色根据模式和您的输入生成回应。他们可能会编造事实（“幻觉”）或只是为了保持对话而同意您的观点。请勿依赖他们获取事实信息或做关键的人生决定。"
+          },
+          "termination": {
+            "title": "6. 终止",
+            "body": "我们保留暂停或终止违反这些条款、从事骚扰或滥用系统的账户的权利。"
           }
         }
       }
